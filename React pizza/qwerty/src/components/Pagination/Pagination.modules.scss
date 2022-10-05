@@ -1,0 +1,25 @@
+.bag {
+  margin-top: 30px;
+  li {
+    display: inline-block;
+    &.selected a{
+      background-color: #fe5f1e;
+      color: whitesmoke;
+    }
+
+    a {
+      color: #fe5f1e;
+      padding: 9px 15px;
+      border: 1px solid #fe5f1e;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out;
+    }
+    &:hover a {
+      background-color: #fe5f1e;
+      color: whitesmoke;
+    }
+  }
+}
